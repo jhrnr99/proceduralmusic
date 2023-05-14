@@ -4,7 +4,7 @@ import Script from 'next/script';
 //import * as Tone from 'tone';
 
 export default function Home() {
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.4.9/Tone.min.js"/>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.4.9/Tone.min.js"></script>
 
   function makeSound() {
     const synth = new Tone.PolySynth(Tone.Synth).toDestination();
